@@ -16,10 +16,16 @@ export default function About() {
                 todos os tamanhos. Nosso compromisso é criar um impacto positivo
                 por meio de uma sinalização eficaz e designs inovadores.
               </p>
+
               <p className="text-blue">
                 <strong> Nossos Valores:</strong>
                 Comprometimento com a qualidade, inovação, atendimento ao
                 cliente excepcional e integridade em todas as interações.
+              </p>
+              <p className="text-blue">
+                Pronto para elevar a comunicação visual da sua empresa? Entre em
+                contato com a Quantico Sinalização e descubra como podemos
+                ajudá-lo a criar um impacto duradouro.
               </p>
             </article>
             <picture data-aos="fade-up">
