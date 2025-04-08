@@ -4,29 +4,23 @@ import Container from './styles';
 export default function About() {
   return (
     <Container>
-      <section id="about" className="section-blue">
+      <section id="about" className="section-grey">
         <div className="container">
-          <h1 className="section-title text-white">Quem Somos</h1>
-          <div className="section-container">
+          <h1 className="section-title text-blue">Quem Somos</h1>
+          <div className="section-container text-blue">
             <article>
-              <p>Olá,Somos a Quantico Sinalização.</p>
-              <p>
-                A Stechnology é uma empresa apaixonada por tecnologia e focada
-                em transformar ideias em soluções digitais inovadoras. Desde o
-                início de nossas atividades, em 2022, nos dedicamos a criar
-                sites, sistemas web e aplicativos mobile que impulsionam os
-                negócios de nossos clientes. Com uma equipe experiente e
-                multidisciplinar, oferecemos soluções personalizadas e de alta
-                qualidade, sempre alinhadas às necessidades e objetivos de cada
-                cliente. Nossa missão é simplificar a vida das pessoas através
-                da tecnologia, proporcionando experiências digitais intuitivas e
-                eficientes.
+              <p className="text-blue">Olá,Somos a Quantico Sinalização.</p>
+              <p className="text-blue">
+                A Quantico Sinalização é uma empresa dedicada à excelência em
+                fornecer soluções de sinalização para empresas e organizações de
+                todos os tamanhos. Nosso compromisso é criar um impacto positivo
+                por meio de uma sinalização eficaz e designs inovadores.
               </p>
-              <p>Nossos serviços:</p>
-              <li>Desenvolvimento de sites personalizados</li>
-              <li>Criação de sistemas web sob medida;</li>
-              <li>Desenvolvimento de aplicativos mobile para iOS e Android;</li>
-              <li>Manutenção e suporte técnico.</li>
+              <p className="text-blue">
+                <strong> Nossos Valores:</strong>
+                Comprometimento com a qualidade, inovação, atendimento ao
+                cliente excepcional e integridade em todas as interações.
+              </p>
             </article>
             <picture data-aos="fade-up">
               /<img src="logo.png" alt="avatar.webp" />

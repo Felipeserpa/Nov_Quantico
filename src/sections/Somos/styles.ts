@@ -14,13 +14,13 @@ const Container = styled.div`
 
   #about article p {
     font-size: 2rem;
-    color: ${(props) => props.theme.aliceBlue};
+
     line-height: 2.8rem;
     padding: 10px;
   }
   #about article li {
     font-size: 2rem;
-    color: ${(props) => props.theme.aliceBlue};
+
     line-height: 2.8rem;
   }
 
