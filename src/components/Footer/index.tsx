@@ -1,4 +1,10 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa';
+import {
+  FaGithub,
+  FaLinkedin,
+  FaEnvelope,
+  FaWhatsapp,
+  FaInstagram,
+} from 'react-icons/fa';
 import Container from './styles';
 
 export default function Footer() {
@@ -16,25 +22,11 @@ export default function Footer() {
               <FaWhatsapp />
             </a>
 
-            <a
-              href=" https://github.com/Felipeserpa"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaGithub />
+            <a href=" " target="_blank" rel="noreferrer">
+              <FaInstagram />
             </a>
-            <a
-              href=" https://www.linkedin.com/in/felipe-serpa-149b88223/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FaLinkedin />
-            </a>
-            <a
-              href="mailto:stecnologico@hotmail.com"
-              target="_blank"
-              rel="noreferrer"
-            >
+
+            <a href="mailto:" target="_blank" rel="noreferrer">
               <FaEnvelope />
             </a>
           </div>
