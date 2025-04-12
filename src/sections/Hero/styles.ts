@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const Container = styled.div`
   .presentation {
     height: 100vh;
-    background-image: url(/onur-binay-_yC2htzMYnI-unsplash.webp);
+    background-image: url(/impressora.webp);
     background-size: cover;
     background-position: top center;
     position: relative;
@@ -81,7 +81,8 @@ const Container = styled.div`
   .presentation button {
     display: inline-block;
     padding: 1rem 4.7rem;
-    color: ${(props) => props.theme.secondaryColor};
+    color: white;
+
     background-color: transparent;
     border: 0.2rem solid ${(props) => props.theme.secondaryColor};
     font-size: 2rem;
@@ -95,7 +96,7 @@ const Container = styled.div`
   }
 
   .presentation button:hover {
-    color: #01394e;
+    color: rgb(235, 241, 243);
     font-weight: 700;
     background-color: ${(props) => props.theme.secondaryColor};
   }
@@ -103,7 +104,7 @@ const Container = styled.div`
   /* keyframes ============================================== */
   @keyframes text_reveal_name {
     100% {
-      color: #9c5000;
+      color: rgb(236, 232, 228);
     }
   }
 
