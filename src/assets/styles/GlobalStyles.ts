@@ -98,6 +98,14 @@ body::-webkit-scrollbar-thumb:hover {
   }
 }
 
+.section-black {
+
+  background-color: ${(props) => props.theme.black};
+  @media (max-width: 930px) {
+    padding-bottom: 5rem;
+  }
+}
+
 .section-grey {
   padding-bottom: 10rem;
   background-color: ${(props) => props.theme.grey};

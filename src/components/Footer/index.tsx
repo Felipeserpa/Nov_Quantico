@@ -1,16 +1,10 @@
-import {
-  FaGithub,
-  FaLinkedin,
-  FaEnvelope,
-  FaWhatsapp,
-  FaInstagram,
-} from 'react-icons/fa';
+import { FaEnvelope, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import Container from './styles';
 
 export default function Footer() {
   return (
     <Container>
-      <footer className="container section-blue">
+      <footer className="container section-black">
         <div className="section-container">
           <p>Desenvolvido por @Stechnology</p>
           <div className="social-links">

@@ -16,7 +16,7 @@ import Container from './styles';
 export default function Skills() {
   return (
     <Container>
-      <section id="skills" className="section-blue">
+      <section id="skills" className="section-black">
         <div className="container">
           <h1 className="section-title text-white">Serviços</h1>
           <div className="section-container">
