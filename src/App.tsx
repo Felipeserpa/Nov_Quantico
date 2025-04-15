@@ -1,7 +1,7 @@
 import { ThemeProvider } from 'styled-components';
 import { Toaster } from 'react-hot-toast';
 import About from './sections/Somos';
-import Contact from './sections/Contact';
+//import Contact from './sections/Contact';
 import Footer from './components/Footer';
 import Header from './components/Header';
 //import Portfolio from './sections/clientes';
@@ -22,7 +22,6 @@ function App() {
       <About />
       <Skills />
 
-      <Contact />
       <Footer />
     </ThemeProvider>
   );

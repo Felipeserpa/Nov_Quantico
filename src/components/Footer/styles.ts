@@ -35,7 +35,7 @@ const Container = styled.div`
   footer .container {
     height: 9rem;
     width: 100%;
-    background-color: ${(props) => props.theme.black};
+    background-color: ${(props) => props.theme.white};
     padding: 2rem;
     text-align: center;
     @media (max-width: 930px) {
