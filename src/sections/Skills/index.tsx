@@ -6,6 +6,18 @@ import letreiro2 from '../../assets/images/letreiros/letreiro suzano.jpg';
 import adesivo1 from '../../assets/images/adesivo vinil/adeisvo02.jpg';
 import adesivo2 from '../../assets/images/adesivo vinil/adesivo01.jpg';
 
+import veiculos01 from '../../assets/images/veiculos/veiculos01.jpeg';
+import veiculos02 from '../../assets/images/veiculos/veiculos02.jpeg';
+
+import placa01 from '../../assets/images/placa de obra/placa de obra fotoluminescente.jpg';
+import placa02 from '../../assets/images/placa de obra/placa de obra piatec..jpg';
+import placa03 from '../../assets/images/placa de obra/placa de obras.jpg';
+
+import placas01 from '../../assets/images/placas/foto 01.jpg';
+import placas02 from '../../assets/images/placas/placa02.jpeg';
+import placas03 from '../../assets/images/placas/placa03.jpeg';
+import placas05 from '../../assets/images/placas/placa05.jpg';
+
 export default function Skills() {
   const servicos = [
     {
@@ -36,6 +48,8 @@ export default function Skills() {
       link: '/servico-veiculos',
       imagens: [
         // Array de imagens para Veiculos
+        veiculos01,
+        veiculos02,
       ],
     },
     {
@@ -43,14 +57,14 @@ export default function Skills() {
       descricao:
         'Placas de obras são utilizadas para identificar projetos de construção, reformas ou demolições. Elas geralmente contêm informações sobre a obra (nome, tipo, localização), os responsáveis técnicos (engenheiros, arquitetos), a empresa executora, prazos e, em alguns casos, representações visuais do projeto',
       link: '/servico-placas-obras',
-      imagens: [],
+      imagens: [placa01, placa02, placa03],
     },
     {
-      titulo: 'PLacas',
+      titulo: 'Placas',
       descricao:
         'Este é um termo genérico que engloba diversos tipos de placas com diferentes finalidades, como sinalização interna (direcional, informativa, de segurança), sinalização externa (comercial, institucional), placas de identificação, etc.',
       link: '/servico-placas',
-      imagens: [],
+      imagens: [placas01, placas02, placas03, placas05],
     },
     {
       titulo: 'Fachadas',
@@ -75,7 +89,7 @@ export default function Skills() {
                   style={{
                     width: '400px', // Defina uma largura fixa para o card
                     maxWidth: '100%', // Garante que não ultrapasse o contêiner em telas menores
-                    marginBottom: '20px', // Adiciona um pouco de espaço entre os cards
+                    marginBottom: '30px', // Adiciona um pouco de espaço entre os cards
                     border: '1px solid #ccc', // Exemplo de estilo visual
                     padding: '15px',
                     overflow: ' hidden',
@@ -83,12 +97,12 @@ export default function Skills() {
                 >
                   <h2>{servico.titulo}</h2>
                   <ImageSlider images={servico.imagens} />
-                  <p style={{ fontSize: '0.9em' }}>{servico.descricao}</p>{' '}
+                  <p style={{ fontSize: '1.2em' }}>{servico.descricao}</p>{' '}
                   {/* Diminui a fonte da descrição */}
                   <a
                     href={servico.link}
                     className="button"
-                    style={{ fontSize: '0.8em', padding: '8px 12px' }}
+                    style={{ fontSize: '1.0em', padding: '8px 12px' }}
                   >
                     {' '}
                     {/* Diminui a fonte e o padding do botão */}

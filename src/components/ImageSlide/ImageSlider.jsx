@@ -29,7 +29,7 @@ const ImageSlider = ({ images }) => {
               style={{
                 width: '100%', // Tente ocupar a largura total do SwiperSlide
                 height: 'auto',
-                maxHeight: '150px' /* Mantenha a altura máxima */,
+                maxHeight: '200px' /* Mantenha a altura máxima */,
                 objectFit: 'cover',
                 display: 'block', // Importante para evitar espaços extras abaixo da imagem
               }}
