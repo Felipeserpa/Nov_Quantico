@@ -18,6 +18,11 @@ import placas02 from '../../assets/images/placas/placa02.jpeg';
 import placas03 from '../../assets/images/placas/placa03.jpeg';
 import placas05 from '../../assets/images/placas/placa05.jpg';
 
+import fachadas01 from '../../assets/images/fachadas/fachda01.jpg';
+import fachadas02 from '../../assets/images/fachadas/fachada02.jpeg';
+import fachadas03 from '../../assets/images/fachadas/fachda03.jpeg';
+import fachadas04 from '../../assets/images/fachadas/fachada04.jpg';
+
 export default function Skills() {
   const servicos = [
     {
@@ -71,13 +76,13 @@ export default function Skills() {
       descricao:
         'Fachadas são a parte frontal de um edifício ou estabelecimento comercial, desempenhando um papel crucial na primeira impressão que o negócio causa. A sinalização de fachadas visa identificar, destacar e atrair clientes.',
       link: '/servico-fachadas',
-      imagens: [],
+      imagens: [fachadas01, fachadas02, fachadas03, fachadas04],
     },
   ];
 
   return (
     <Container>
-      <section id="skills" className="">
+      <section id="servicos" className="">
         <div className="container">
           <h1 className="section-title text-white">Serviços</h1>
           <div className="section-container">

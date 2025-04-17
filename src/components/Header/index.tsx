@@ -11,6 +11,8 @@ import {
 } from 'react-icons/fa';
 import Container from './styles';
 
+import { Link } from 'react-router-dom';
+
 export default function Header() {
   const [active, setMode] = useState(false);
   const toggleMode = () => {
@@ -41,13 +43,13 @@ export default function Header() {
       <header className={navbar ? 'header active' : 'header'}>
         <nav>
           <div id="logo">
-            <a href="/">
+            <Link to="/">
               <img
                 src="/logo.png"
                 alt=""
                 style={{ width: 140, border: 'radius' }}
               />
-            </a>
+            </Link>
           </div>
           <div className={active ? 'nav-menu  active' : 'nav-menu '}>
             <ul
@@ -56,10 +58,11 @@ export default function Header() {
               }}
             >
               <li>
-                <a href="#inicio">HOME</a>
+                <a href="/">HOME</a>
               </li>
+
               <li>
-                <a href="#skills">SERVIÇOS</a>
+                <a href="#servicos">SERVIÇOS</a>
               </li>
 
               <li>

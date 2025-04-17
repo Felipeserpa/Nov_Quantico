@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Container from './styles';
 
 export default function Presentation() {
@@ -16,7 +17,8 @@ export default function Presentation() {
             Quantico Sinalização
             <span />
           </h1>
-          <a href="#portfolio" type="button" className="cta">
+          <Link to="/servicos">Serviços</Link>
+          <a href="/servicos" type="button" className="cta">
             <button type="button">Serviços</button>
           </a>
         </div>

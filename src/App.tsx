@@ -1,28 +1,30 @@
+// src/App.tsx
 import { ThemeProvider } from 'styled-components';
 import { Toaster } from 'react-hot-toast';
-import About from './sections/Somos';
-//import Contact from './sections/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
-//import Portfolio from './sections/clientes';
-import Hero from './sections/Hero';
-import Skills from './sections/Skills';
+import { Routes, Route } from 'react-router-dom';
+
 import GlobalStyles from './assets/styles/GlobalStyles';
 import theme from './assets/styles/theme';
-import { Analytics } from '@vercel/analytics/react';
+
+import MainLayout from './components/MainLayout/MainLayout';
+import Home from '../src/sections/home';
+import Servicos from '../src/sections/servicos/servicos';
 
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Analytics />
-      <Toaster position="bottom-right" font-size="1 rem" />
+      <Toaster position="bottom-right" />
       <GlobalStyles />
-      <Header />
-      <Hero />
-      <About />
-      <Skills />
 
-      <Footer />
+      <Routes>
+        {/* Layout padrão com header/footer */}
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+        </Route>
+
+        {/* Página separada sem layout */}
+        <Route path="/servicos" element={<Servicos />} />
+      </Routes>
     </ThemeProvider>
   );
 }
