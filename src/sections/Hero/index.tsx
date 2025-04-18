@@ -17,10 +17,10 @@ export default function Presentation() {
             Quantico Sinalização
             <span />
           </h1>
-          <Link to="/servicos">Serviços</Link>
-          <a href="/servicos" type="button" className="cta">
+
+          <Link to="/servicos" type="button" className="cta">
             <button type="button">Serviços</button>
-          </a>
+          </Link>
         </div>
       </div>
     </Container>
