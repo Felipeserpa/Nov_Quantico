@@ -3,8 +3,11 @@ import ImageSlider from '../../components/ImageSlide/ImageSlider';
 
 import letreiro1 from '../../assets/images/letreiros/letreiro01.jpg';
 import letreiro2 from '../../assets/images/letreiros/letreiro suzano.jpg';
+import acenture from '../../assets/images/letreiros/accenture01.jpg';
+
 import adesivo1 from '../../assets/images/adesivo vinil/adeisvo02.jpg';
 import adesivo2 from '../../assets/images/adesivo vinil/adesivo01.jpg';
+import adesivo3 from '../../assets/images/adesivo vinil/adesivo03.jpg';
 
 import veiculos01 from '../../assets/images/veiculos/veiculos01.jpeg';
 import veiculos02 from '../../assets/images/veiculos/veiculos02.jpeg';
@@ -31,6 +34,7 @@ export default function Skills() {
         'Letreiros são formas de comunicação visual que utilizam letras, números e símbolos para identificar um estabelecimento, marca ou serviço. Eles podem ser instalados em fachadas, interiores de edifícios, ou como estruturas independentes. O objetivo principal é atrair a atenção e informar sobre o local ou negócio.',
       link: '/servico-identidade-visual',
       imagens: [
+        acenture,
         letreiro1, // Use as variáveis importadas aqui
         letreiro2,
       ],
@@ -43,6 +47,7 @@ export default function Skills() {
       imagens: [
         // Array de imagens para Adesivos
         adesivo1,
+        adesivo3,
         adesivo2,
       ],
     },
@@ -69,7 +74,7 @@ export default function Skills() {
       descricao:
         'Este é um termo genérico que engloba diversos tipos de placas com diferentes finalidades, como sinalização interna (direcional, informativa, de segurança), sinalização externa (comercial, institucional), placas de identificação, etc.',
       link: '/servico-placas',
-      imagens: [placas01, placas02, placas03, placas05],
+      imagens: [placas03, placas01, placas02, placas05],
     },
     {
       titulo: 'Fachadas',
