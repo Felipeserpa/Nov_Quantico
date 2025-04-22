@@ -17,12 +17,33 @@ import totens03 from '../../assets/images/totens/totens1.jpg';
 import totens04 from '../../assets/images/totens/totens2.jpg';
 import totens05 from '../../assets/images/totens/totens3.jpeg';
 
+//Banner
+import banner01 from '../../assets/images/banner/banner.jpg';
+import banner02 from '../../assets/images/banner/banner2.jpg';
+import banner03 from '../../assets/images/banner/banner3.jpg';
+
+//fachadas
+import fachadas01 from '../../assets/images/fachadas/fachda01.jpg';
+import fachadas02 from '../../assets/images/fachadas/fachada02.jpeg';
+import fachadas03 from '../../assets/images/fachadas/fachda03.jpeg';
+
+//Placa de obras
+import placadeobras01 from '../../assets/images/placa de obra/placa de obra fotoluminescente.jpg';
+import placadeobras02 from '../../assets/images/placa de obra/placa de obra piatec..jpg';
+import placadeobras03 from '../../assets/images/placa de obra/placa de obras.jpg';
+
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
-  { nome: 'Banners', fotos: ['/fotos/banners1.jpg', '/fotos/banners2.jpg'] },
+  { nome: 'Banners', fotos: [banner01, banner02, banner03] },
   { nome: 'Placas', fotos: ['/fotos/placas1.jpg', '/fotos/placas2.jpg'] },
-  { nome: 'Fachadas', fotos: ['/fotos/fachadas1.jpg'] },
-  { nome: 'Placas de obras', fotos: ['/fotos/obras1.jpg'] },
+  {
+    nome: 'Fachadas',
+    fotos: [fachadas01, fachadas02, fachadas03],
+  },
+  {
+    nome: 'Placas de obras',
+    fotos: [placadeobras01, placadeobras02, placadeobras03],
+  },
   { nome: 'Letreiros', fotos: ['/fotos/letreiros1.jpg'] },
   { nome: 'Veiculos', fotos: ['/fotos/veiculos1.jpg'] },
   { nome: 'Stander', fotos: ['/fotos/stander1.jpg'] },
@@ -55,7 +76,7 @@ export default function Servicos() {
           </div>
 
           <div className="fotos">
-            <h2>{servicoSelecionado.nome}</h2>
+            <h2 className="nome">{servicoSelecionado.nome}</h2>
             <div className="galeria">
               {servicoSelecionado.fotos.map((foto, index) => (
                 <img key={index} src={foto} alt={servicoSelecionado.nome} />
@@ -83,7 +104,9 @@ const Container = styled.div`
     margin-top: 3rem; /* Espaço do Header */
     justify-content: flex-end;
   }
-
+  .nome {
+    color: white;
+  }
   .cards {
     width: 35%;
     display: flex;
