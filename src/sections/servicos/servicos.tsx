@@ -10,8 +10,15 @@ import adesivo4 from '../../assets/images/adesivo vinil/adesivo04.jpg';
 import adesivo5 from '../../assets/images/adesivo vinil/adesivo05.jpg';
 import adesivo6 from '../../assets/images/adesivo vinil/foto06.jpg';
 
+//totens
+import totens01 from '../../assets/images/totens/foto01.jpg';
+import totens02 from '../../assets/images/totens/foto02.jpg';
+import totens03 from '../../assets/images/totens/totens1.jpg';
+import totens04 from '../../assets/images/totens/totens2.jpg';
+import totens05 from '../../assets/images/totens/totens3.jpeg';
+
 const servicos = [
-  { nome: 'Totens', fotos: ['', '/fotos/totens2.jpg'] },
+  { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   { nome: 'Banners', fotos: ['/fotos/banners1.jpg', '/fotos/banners2.jpg'] },
   { nome: 'Placas', fotos: ['/fotos/placas1.jpg', '/fotos/placas2.jpg'] },
   { nome: 'Fachadas', fotos: ['/fotos/fachadas1.jpg'] },
