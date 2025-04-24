@@ -44,6 +44,32 @@ import placa08 from '../../assets/images/placas/placa08.jpg';
 import placa09 from '../../assets/images/placas/placa09.jpg';
 import placa10 from '../../assets/images/placas/placa10.jpg';
 
+//Letreiros.
+import letreiro1 from '../../assets/images/letreiros/letreiro01.jpg';
+import letreiro2 from '../../assets/images/letreiros/letreiro suzano.jpg';
+import letreiro3 from '../../assets/images/letreiros/letreiro03.jpg';
+import letreiro4 from '../../assets/images/letreiros/accenture 03.jpeg';
+
+import letreiro6 from '../../assets/images/letreiros/accenture01.jpg';
+import letreiro7 from '../../assets/images/letreiros/accenture02.jpg';
+import letreiro8 from '../../assets/images/letreiros/foto 02.jpg';
+import letreiro9 from '../../assets/images/letreiros/foto 03.jpeg';
+import letreiro10 from '../../assets/images/letreiros/letreiro accenture.jpg';
+
+//Veiculos
+import veiculos01 from '../../assets/images/veiculos/veiculos01.jpeg';
+import veiculos02 from '../../assets/images/veiculos/veiculos02.jpeg';
+import veiculos03 from '../../assets/images/veiculos/veiculos03.jpeg';
+import veiculos04 from '../../assets/images/veiculos/veiculos04.jpg';
+import veiculos05 from '../../assets/images/veiculos/veiculos05.jpg';
+import veiculos06 from '../../assets/images/veiculos/veiculos06.jpg';
+
+//Stande
+import stande01 from '../../assets/images/stande/stande01.jpg';
+import stande02 from '../../assets/images/stande/stande02.jpg';
+import stande03 from '../../assets/images/stande/stande03.jpg';
+import stande04 from '../../assets/images/stande/stande04.jpg';
+
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   { nome: 'Banners', fotos: [banner01, banner02, banner03] },
@@ -70,9 +96,32 @@ const servicos = [
     nome: 'Placas de obras',
     fotos: [placadeobras01, placadeobras02, placadeobras03],
   },
-  { nome: 'Letreiros', fotos: ['/fotos/letreiros1.jpg'] },
-  { nome: 'Veiculos', fotos: ['/fotos/veiculos1.jpg'] },
-  { nome: 'Stander', fotos: ['/fotos/stander1.jpg'] },
+  {
+    nome: 'Letreiros',
+    fotos: [
+      letreiro1,
+      letreiro2,
+      letreiro3,
+      letreiro6,
+      letreiro7,
+      letreiro10,
+      letreiro4,
+      letreiro8,
+      letreiro9,
+    ],
+  },
+  {
+    nome: 'Veiculos',
+    fotos: [
+      veiculos01,
+      veiculos02,
+      veiculos03,
+      veiculos04,
+      veiculos05,
+      veiculos06,
+    ],
+  },
+  { nome: 'Stander', fotos: [stande01, stande02, stande03, stande04] },
   {
     nome: 'Adesivo Vinil',
     fotos: [adesivo1, adesivo2, adesivo3, adesivo4, adesivo5, adesivo6],
