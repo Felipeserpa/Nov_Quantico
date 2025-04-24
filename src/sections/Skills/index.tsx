@@ -16,7 +16,7 @@ import placa01 from '../../assets/images/placa de obra/placa de obra fotolumines
 import placa02 from '../../assets/images/placa de obra/placa de obra piatec..jpg';
 import placa03 from '../../assets/images/placa de obra/placa de obras.jpg';
 
-import placas01 from '../../assets/images/placas/foto 01.jpg';
+import placas01 from '../../assets/images/placas/placa01.jpg';
 import placas02 from '../../assets/images/placas/placa02.jpeg';
 import placas03 from '../../assets/images/placas/placa03.jpeg';
 import placas05 from '../../assets/images/placas/placa05.jpg';

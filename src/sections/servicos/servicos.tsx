@@ -32,10 +32,36 @@ import placadeobras01 from '../../assets/images/placa de obra/placa de obra foto
 import placadeobras02 from '../../assets/images/placa de obra/placa de obra piatec..jpg';
 import placadeobras03 from '../../assets/images/placa de obra/placa de obras.jpg';
 
+//Placa
+import placa01 from '../../assets/images/placas/placa01.jpg';
+import placa02 from '../../assets/images/placas/placa02.jpeg';
+import placa03 from '../../assets/images/placas/placa03.jpeg';
+import placa04 from '../../assets/images/placas/placa04.jpeg';
+import placa05 from '../../assets/images/placas/placa05.jpg';
+import placa06 from '../../assets/images/placas/placa06.jpg';
+import placa07 from '../../assets/images/placas/placa07.jpg';
+import placa08 from '../../assets/images/placas/placa08.jpg';
+import placa09 from '../../assets/images/placas/placa09.jpg';
+import placa10 from '../../assets/images/placas/placa10.jpg';
+
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   { nome: 'Banners', fotos: [banner01, banner02, banner03] },
-  { nome: 'Placas', fotos: ['/fotos/placas1.jpg', '/fotos/placas2.jpg'] },
+  {
+    nome: 'Placas',
+    fotos: [
+      placa01,
+      placa02,
+      placa03,
+      placa04,
+      placa05,
+      placa06,
+      placa07,
+      placa08,
+      placa09,
+      placa10,
+    ],
+  },
   {
     nome: 'Fachadas',
     fotos: [fachadas01, fachadas02, fachadas03],
