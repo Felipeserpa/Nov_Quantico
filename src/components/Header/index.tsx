@@ -89,7 +89,11 @@ export default function Header() {
                 <FaWhatsapp />
               </a>
 
-              <a href=" " target="_blank" rel="noreferrer">
+              <a
+                href=" https://www.instagram.com/quantico_sinaliza/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <FaInstagram />
               </a>
 
