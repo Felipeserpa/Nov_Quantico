@@ -25,6 +25,7 @@ import fachadas01 from '../../assets/images/fachadas/fachda01.jpg';
 import fachadas02 from '../../assets/images/fachadas/fachada02.jpeg';
 import fachadas03 from '../../assets/images/fachadas/fachda03.jpeg';
 import fachadas04 from '../../assets/images/fachadas/fachada04.jpg';
+import { Link } from 'react-router-dom';
 
 export default function Skills() {
   const servicos = [
@@ -108,16 +109,18 @@ export default function Skills() {
                   <h2>{servico.titulo}</h2>
                   <ImageSlider images={servico.imagens} />
                   <p style={{ fontSize: '1.2em' }}>{servico.descricao}</p>{' '}
-                  {/* Diminui a fonte da descrição */}
-                  <a
-                    href={servico.link}
-                    className="button"
-                    style={{ fontSize: '1.0em', padding: '8px 12px' }}
-                  >
-                    {' '}
-                    {/* Diminui a fonte e o padding do botão */}
-                    Saiba Mais
-                  </a>
+                  <Link to="/servicos" type="button" className="cta">
+                    {/* Diminui a fonte da descrição */}
+                    <a
+                      href={servico.link}
+                      className="button"
+                      style={{ fontSize: '1.0em', padding: '8px 12px' }}
+                    >
+                      {' '}
+                      {/* Diminui a fonte e o padding do botão */}
+                      Saiba Mais
+                    </a>
+                  </Link>
                 </div>
               ))}
             </div>

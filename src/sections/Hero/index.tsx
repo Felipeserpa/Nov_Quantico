@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import Container from './styles';
+import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Presentation() {
   return (
@@ -17,10 +18,6 @@ export default function Presentation() {
             Quantico Sinalização
             <span />
           </h1>
-
-          <Link to="/servicos" type="button" className="cta">
-            <button type="button">Serviços</button>
-          </Link>
         </div>
       </div>
     </Container>

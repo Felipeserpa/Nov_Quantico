@@ -61,15 +61,17 @@ export default function Header() {
                 <a href="/">HOME</a>
               </li>
 
-              <li>
-                <a href="#servicos">SERVIÇOS</a>
-              </li>
-
+              <li></li>
+              <Link to="/servicos" type="button" className="cta">
+                <a href="/servicos">SERVIÇOS</a>
+              </Link>
               <li>
                 <a href="#about">SOBRE</a>
               </li>
               <li>
-                <a href="#contact">CONTATO</a>
+                <a href="https://wa.me/5581996839491?text=Olá%2C%20gostaria%20de%20fazer%20um%20orçamento!">
+                  CONTATO
+                </a>
               </li>
             </ul>
 
