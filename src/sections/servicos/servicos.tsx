@@ -75,6 +75,8 @@ import stande01 from '../../assets/images/stande/stande01.jpg';
 import stande02 from '../../assets/images/stande/stande02.jpg';
 import stande03 from '../../assets/images/stande/stande03.jpg';
 import stande04 from '../../assets/images/stande/stande04.jpg';
+import stande05 from '../../assets/images/stande/stander globo malhas.webp';
+import stande06 from '../../assets/images/stande/stander.webp';
 
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
@@ -127,7 +129,10 @@ const servicos = [
       veiculos06,
     ],
   },
-  { nome: 'Stander', fotos: [stande01, stande02, stande03, stande04] },
+  {
+    nome: 'Stander',
+    fotos: [stande01, stande02, stande03, stande04, stande05, stande06],
+  },
   {
     nome: 'Adesivo Vinil',
     fotos: [
@@ -136,7 +141,6 @@ const servicos = [
       adesivo3,
       adesivo4,
       adesivo5,
-
       adesivo7,
       adesivo8,
       adesivo9,

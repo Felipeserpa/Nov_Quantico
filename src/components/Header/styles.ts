@@ -13,7 +13,7 @@ const Container = styled.div`
 
     &.active {
       background-color: rgb(250, 254, 255);
-      border-bottom: 1px solid #9c5000;
+      border-bottom: 1px solidrgb(221, 121, 14);
       backdrop-filter: blur(0.8rem);
       padding: 1rem;
       @media (max-width: 930px) {
