@@ -79,9 +79,18 @@ import stande05 from '../../assets/images/stande/stander globo malhas.webp';
 import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
-import quadros01 from '../../assets/images/quadros/quadros em acrilicos 1.jpg';
-import quadros02 from '../../assets/images/quadros/quadros em acrilicos 2.jpg';
-import quadros03 from '../../assets/images/quadros/quadros em acrilicos.jpg';
+
+import quadros01 from '../../assets/images/quadros/quadro01.jpg';
+import quadros02 from '../../assets/images/quadros/quadro02.jpg';
+import quadros03 from '../../assets/images/quadros/quadro03.jpg';
+import quadros04 from '../../assets/images/quadros/quadro04.jpg';
+import quadros05 from '../../assets/images/quadros/quadro05.jpg';
+import quadros06 from '../../assets/images/quadros/quadro06.jpg';
+
+import quadros07 from '../../assets/images/quadros/quadro07.jpg';
+import quadros08 from '../../assets/images/quadros/quadro08.jpg';
+import quadros09 from '../../assets/images/quadros/quadro09.jpg';
+import quadros10 from '../../assets/images/quadros/quadro10.jpg';
 
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
