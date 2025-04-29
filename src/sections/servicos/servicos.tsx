@@ -79,8 +79,8 @@ import stande05 from '../../assets/images/stande/stander globo malhas.webp';
 import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
-import quadros01 from '../../assets/images/quadros/quadros em acrilicos 1.jpg';
-import quadros02 from '../../assets/images/quadros/quadros em acrilicos 2.jpg';
+import quadros01 from '../../assets/images/quadros/quadros em acrilicoss.jpg';
+import quadros02 from '../../assets/images/quadros/quadros em acrilicosss.jpg';
 import quadros03 from '../../assets/images/quadros/quadros em acrilicos.jpg';
 
 const servicos = [
