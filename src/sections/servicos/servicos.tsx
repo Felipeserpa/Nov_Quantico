@@ -8,7 +8,13 @@ import adesivo2 from '../../assets/images/adesivo vinil/adesivo01.jpg';
 import adesivo3 from '../../assets/images/adesivo vinil/adesivo03.jpg';
 import adesivo4 from '../../assets/images/adesivo vinil/adesivo04.jpg';
 import adesivo5 from '../../assets/images/adesivo vinil/adesivo05.jpg';
-import adesivo6 from '../../assets/images/adesivo vinil/foto06.jpg';
+//import adesivo6 from '../../assets/images/adesivo vinil/foto06.jpg';
+import adesivo7 from '../../assets/images/adesivo vinil/foto07.jpg';
+import adesivo8 from '../../assets/images/adesivo vinil/foto08.jpg';
+import adesivo9 from '../../assets/images/adesivo vinil/foto09.jpg';
+import adesivo10 from '../../assets/images/adesivo vinil/foto10.webp';
+import adesivo11 from '../../assets/images/adesivo vinil/foto11.webp';
+import adesivo12 from '../../assets/images/adesivo vinil/foto12.webp';
 
 //totens
 import totens01 from '../../assets/images/totens/foto01.jpg';
@@ -124,7 +130,20 @@ const servicos = [
   { nome: 'Stander', fotos: [stande01, stande02, stande03, stande04] },
   {
     nome: 'Adesivo Vinil',
-    fotos: [adesivo1, adesivo2, adesivo3, adesivo4, adesivo5, adesivo6],
+    fotos: [
+      adesivo1,
+      adesivo2,
+      adesivo3,
+      adesivo4,
+      adesivo5,
+
+      adesivo7,
+      adesivo8,
+      adesivo9,
+      adesivo10,
+      adesivo11,
+      adesivo12,
+    ],
   },
 ];
 
