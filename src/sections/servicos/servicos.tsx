@@ -42,6 +42,11 @@ import fachadas03 from '../../assets/images/fachadas/fachda03.jpeg';
 import placadeobras01 from '../../assets/images/placa de obra/placa de obra fotoluminescente.jpg';
 import placadeobras02 from '../../assets/images/placa de obra/placa de obra piatec..jpg';
 import placadeobras03 from '../../assets/images/placa de obra/placa de obras.jpg';
+import placadeobras04 from '../../assets/images/placa de obra/placa de sinalização.jpg';
+import placadeobras05 from '../../assets/images/placa de obra/placa sinalização332.jpg';
+import placadeobras06 from '../../assets/images/placa de obra/placa sinalização.jpg';
+import placadeobras07 from '../../assets/images/placa de obra/placa sinalização2.jpg';
+import placadeobra09 from '../../assets/images/placa de obra/placa sinalização22.jpg';
 
 //Placa
 import placa01 from '../../assets/images/placas/placa01.jpg';
@@ -92,7 +97,19 @@ const servicos = [
     nome: 'Quadros',
     fotos: [],
   },
-  { nome: 'Banners', fotos: [banner01, banner02, banner03] },
+  {
+    nome: 'Banners',
+    fotos: [
+      banner01,
+      banner02,
+      banner03,
+      placa04,
+      placa05,
+      placa06,
+      placa07,
+      placa09,
+    ],
+  },
   {
     nome: 'Placas',
     fotos: [
@@ -114,7 +131,16 @@ const servicos = [
   },
   {
     nome: 'Placas de obras',
-    fotos: [placadeobras01, placadeobras02, placadeobras03],
+    fotos: [
+      placadeobras01,
+      placadeobras02,
+      placadeobras03,
+      placadeobras04,
+      placadeobras05,
+      placadeobras06,
+      placadeobras07,
+      placadeobra09,
+    ],
   },
   {
     nome: 'Letreiros',
@@ -123,12 +149,13 @@ const servicos = [
       letreiro2,
       letreiro3,
       letreiro6,
+      letreiro11,
       letreiro7,
       letreiro10,
       letreiro4,
       letreiro8,
       letreiro9,
-      letreiro11,
+
       letreiro12,
     ],
   },
