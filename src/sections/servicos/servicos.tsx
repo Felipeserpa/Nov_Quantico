@@ -84,15 +84,11 @@ import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
 
-import quadro02 from '../../assets/images/quadros/quadros em acrilicos 1.jpg';
-import quadro03 from '../../assets/images/quadros/quadros em acrilicos 2.jpg';
-import quadro05 from '../../assets/images/quadros/quadro01.jpg';
-
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   {
     nome: 'Quadros',
-    fotos: [quadro02, quadro03, quadro05],
+    fotos: [],
   },
   { nome: 'Banners', fotos: [banner01, banner02, banner03] },
   {
