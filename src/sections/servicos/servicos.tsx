@@ -60,7 +60,6 @@ import letreiro1 from '../../assets/images/letreiros/letreiro01.jpg';
 import letreiro2 from '../../assets/images/letreiros/letreiro suzano.jpg';
 import letreiro3 from '../../assets/images/letreiros/letreiro03.jpg';
 import letreiro4 from '../../assets/images/letreiros/accenture 03.jpeg';
-
 import letreiro6 from '../../assets/images/letreiros/accenture01.jpg';
 import letreiro7 from '../../assets/images/letreiros/accenture02.jpg';
 import letreiro8 from '../../assets/images/letreiros/foto 02.jpg';
@@ -84,12 +83,17 @@ import stande05 from '../../assets/images/stande/stander globo malhas.webp';
 import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
+import quadro01 from '../../assets/images/quadros/quadro.webp';
+import quadro02 from '../../assets/images/quadros/quadros em acrilicos 1.jpg';
+import quadro03 from '../../assets/images/quadros/quadros em acrilicos 2.jpg';
+
+import quadro05 from '../../assets/images/quadros/quadro01.jpg';
 
 const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   {
     nome: 'Quadros',
-    fotos: [],
+    fotos: [quadro02, quadro03, quadro05, quadro01],
   },
   { nome: 'Banners', fotos: [banner01, banner02, banner03] },
   {
