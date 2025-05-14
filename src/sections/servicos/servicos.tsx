@@ -65,6 +65,8 @@ import letreiro7 from '../../assets/images/letreiros/accenture02.jpg';
 import letreiro8 from '../../assets/images/letreiros/foto 02.jpg';
 import letreiro9 from '../../assets/images/letreiros/foto 03.jpeg';
 import letreiro10 from '../../assets/images/letreiros/letreiro accenture.jpg';
+import letreiro11 from '../../assets/images/letreiros/letreiro.jpg';
+import letreiro12 from '../../assets/images/letreiros/letreiro sapote.jpg';
 
 //Veiculos
 import veiculos01 from '../../assets/images/veiculos/veiculos01.jpeg';
@@ -126,6 +128,8 @@ const servicos = [
       letreiro4,
       letreiro8,
       letreiro9,
+      letreiro11,
+      letreiro12,
     ],
   },
   {
