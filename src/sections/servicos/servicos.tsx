@@ -92,7 +92,7 @@ const servicos = [
   { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
   {
     nome: 'Quadros',
-    fotos: [quadro02, quadro03, quadro05, quadro01],
+    fotos: [quadro02, quadro03, quadro05],
   },
   { nome: 'Banners', fotos: [banner01, banner02, banner03] },
   {
