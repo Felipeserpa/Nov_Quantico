@@ -101,16 +101,7 @@ const servicos = [
   },
   {
     nome: 'Banners',
-    fotos: [
-      banner01,
-      banner02,
-      banner03,
-      placa04,
-      placa05,
-      placa06,
-      placa07,
-      placa09,
-    ],
+    fotos: [banner01, banner02, banner03],
   },
   {
     nome: 'Placas',
