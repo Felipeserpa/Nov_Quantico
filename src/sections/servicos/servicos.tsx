@@ -86,7 +86,6 @@ import stande06 from '../../assets/images/stande/stander.webp';
 import quadro01 from '../../assets/images/quadros/quadro.webp';
 import quadro02 from '../../assets/images/quadros/quadros em acrilicos 1.jpg';
 import quadro03 from '../../assets/images/quadros/quadros em acrilicos 2.jpg';
-
 import quadro05 from '../../assets/images/quadros/quadro01.jpg';
 
 const servicos = [
