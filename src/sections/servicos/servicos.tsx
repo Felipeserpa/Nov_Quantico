@@ -40,6 +40,7 @@ import fachadas02 from '../../assets/images/fachadas/fachada02.jpeg';
 import fachadas03 from '../../assets/images/fachadas/fachda03.jpeg';
 import fachada04 from '../../assets/images/fachadas/fachada22.jpg';
 import fachada05 from '../../assets/images/fachadas/fachada.jpg';
+import fachada06 from '../../assets/images/fachadas/fachada08.jpg';
 
 //Placa de obras
 import placadeobras01 from '../../assets/images/placa de obra/placa de obra fotoluminescente.jpg';
@@ -124,7 +125,14 @@ const servicos = [
   },
   {
     nome: 'Fachadas',
-    fotos: [fachadas01, fachadas02, fachadas03, fachada04, fachada05],
+    fotos: [
+      fachadas01,
+      fachadas02,
+      fachadas03,
+      fachada04,
+      fachada05,
+      fachada06,
+    ],
   },
   {
     nome: 'Placas de obras',
