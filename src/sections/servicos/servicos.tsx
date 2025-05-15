@@ -15,7 +15,6 @@ import adesivo9 from '../../assets/images/adesivo vinil/foto09.jpg';
 import adesivo10 from '../../assets/images/adesivo vinil/foto10.webp';
 import adesivo11 from '../../assets/images/adesivo vinil/foto11.webp';
 import adesivo12 from '../../assets/images/adesivo vinil/foto12.webp';
-
 import adesivo13 from '../../assets/images/adesivo vinil/adesivo ons 1.jpg';
 import adesivo14 from '../../assets/images/adesivo vinil/adesivo onss 2.jpg';
 import adesivo15 from '../../assets/images/adesivo vinil/adesivo ons.jpg';
@@ -94,6 +93,10 @@ import stande05 from '../../assets/images/stande/stander globo malhas.webp';
 import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
+import quadro01 from '../../assets/images/quadros/quadro01.jpg';
+import quadro02 from '../../assets/images/quadros/quadro02.jpg';
+import quadro03 from '../../assets/images/quadros/quadro03.jpg';
+import quadro04 from '../../assets/images/quadros/quadro04.jpg';
 
 const servicos = [
   {
@@ -102,7 +105,7 @@ const servicos = [
   },
   {
     nome: 'Quadros',
-    fotos: [],
+    fotos: [quadro01, quadro02, quadro03, quadro04],
   },
   {
     nome: 'Banners',
