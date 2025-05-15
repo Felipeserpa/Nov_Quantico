@@ -20,6 +20,7 @@ import adesivo13 from '../../assets/images/adesivo vinil/adesivo ons 1.jpg';
 import adesivo14 from '../../assets/images/adesivo vinil/adesivo onss 2.jpg';
 import adesivo15 from '../../assets/images/adesivo vinil/adesivo ons.jpg';
 import adesivo16 from '../../assets/images/adesivo vinil/adesivo ons 3.jpg';
+import adesivo17 from '../../assets/images/adesivo vinil/adesivo sapore.jpg';
 
 //totens
 import totens01 from '../../assets/images/totens/foto01.jpg';
@@ -27,7 +28,7 @@ import totens02 from '../../assets/images/totens/foto02.jpg';
 import totens03 from '../../assets/images/totens/totens1.jpg';
 import totens04 from '../../assets/images/totens/totens2.jpg';
 import totens05 from '../../assets/images/totens/totens3.jpeg';
-
+import totens06 from '../../assets/images/totens/toten.jpg';
 //Banner
 import banner01 from '../../assets/images/banner/banner.jpg';
 import banner02 from '../../assets/images/banner/banner2.jpg';
@@ -73,7 +74,7 @@ import letreiro8 from '../../assets/images/letreiros/foto 02.jpg';
 import letreiro9 from '../../assets/images/letreiros/foto 03.jpeg';
 import letreiro10 from '../../assets/images/letreiros/letreiro accenture.jpg';
 import letreiro11 from '../../assets/images/letreiros/letreiro.jpg';
-import letreiro12 from '../../assets/images/letreiros/letreiro sapore.jpg';
+import letreiro12 from '../../assets/images/letreiros/letreiro preto.jpg';
 
 //Veiculos
 import veiculos01 from '../../assets/images/veiculos/veiculos01.jpeg';
@@ -94,7 +95,10 @@ import stande06 from '../../assets/images/stande/stander.webp';
 //quadros
 
 const servicos = [
-  { nome: 'Totens', fotos: [totens02, totens03, totens04, totens05, totens01] },
+  {
+    nome: 'Totens',
+    fotos: [totens02, totens03, totens04, totens05, totens01, totens06],
+  },
   {
     nome: 'Quadros',
     fotos: [],
@@ -142,14 +146,13 @@ const servicos = [
       letreiro2,
       letreiro3,
       letreiro6,
-      letreiro11,
       letreiro7,
+      letreiro12,
+      letreiro11,
       letreiro10,
       letreiro4,
       letreiro8,
       letreiro9,
-
-      letreiro12,
     ],
   },
   {
@@ -185,6 +188,7 @@ const servicos = [
       adesivo14,
       adesivo15,
       adesivo16,
+      adesivo17,
     ],
   },
 ];
