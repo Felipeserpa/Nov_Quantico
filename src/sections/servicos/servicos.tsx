@@ -107,7 +107,7 @@ const servicos = [
   },
   {
     nome: 'Quadros',
-    fotos: [quadro01, quadro02, quadro03, quadro04, quadro05, quadro06],
+    fotos: [quadro01, quadro02, quadro03, quadro06],
   },
   {
     nome: 'Banners',
