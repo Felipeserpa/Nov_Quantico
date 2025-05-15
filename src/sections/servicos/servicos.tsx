@@ -93,10 +93,12 @@ import stande05 from '../../assets/images/stande/stander globo malhas.webp';
 import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
-//import quadro01 from '../../assets/images/quadros/quadro01.jpg';
+import quadro01 from '../../assets/images/quadros/foto01.jpg';
 import quadro02 from '../../assets/images/quadros/foto02.jpg';
 import quadro03 from '../../assets/images/quadros/foto03.jpg';
 import quadro04 from '../../assets/images/quadros/foto04.jpg';
+import quadro05 from '../../assets/images/quadros/foto05.jpg';
+import quadro06 from '../../assets/images/quadros/foto06.jpg';
 
 const servicos = [
   {
@@ -105,7 +107,7 @@ const servicos = [
   },
   {
     nome: 'Quadros',
-    fotos: [quadro02, quadro03, quadro04],
+    fotos: [quadro01, quadro02, quadro03, quadro04, quadro05, quadro06],
   },
   {
     nome: 'Banners',
