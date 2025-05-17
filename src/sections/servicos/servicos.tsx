@@ -90,15 +90,12 @@ import stande02 from '../../assets/images/stande/stande02.jpg';
 import stande03 from '../../assets/images/stande/stande03.jpg';
 import stande04 from '../../assets/images/stande/stande04.jpg';
 import stande05 from '../../assets/images/stande/stander globo malhas.webp';
-import stande06 from '../../assets/images/stande/stander.webp';
+//import stande06 from '../../assets/images/stande/stander.webp';
 
 //quadros
 import quadro01 from '../../assets/images/quadros/foto01.jpg';
 import quadro02 from '../../assets/images/quadros/foto02.jpg';
 import quadro03 from '../../assets/images/quadros/foto03.jpg';
-import quadro04 from '../../assets/images/quadros/foto04.jpg';
-import quadro05 from '../../assets/images/quadros/foto05.jpg';
-import quadro06 from '../../assets/images/quadros/foto06.jpg';
 
 const servicos = [
   {
@@ -107,7 +104,7 @@ const servicos = [
   },
   {
     nome: 'Quadros',
-    fotos: [quadro01, quadro02, quadro03, quadro06],
+    fotos: [quadro01, quadro02, quadro03],
   },
   {
     nome: 'Banners',
@@ -116,16 +113,14 @@ const servicos = [
   {
     nome: 'Placas',
     fotos: [
-      placa01,
-      placa02,
-      placa03,
-      placa04,
-      placa05,
       placa06,
       placa07,
       placa08,
       placa09,
       placa10,
+      placa02,
+      placa05,
+      placa01,
     ],
   },
   {
@@ -133,6 +128,7 @@ const servicos = [
     fotos: [
       fachadas01,
       fachadas02,
+      placa03,
       fachadas03,
       fachada04,
       fachada05,
@@ -140,7 +136,7 @@ const servicos = [
     ],
   },
   {
-    nome: 'Placas de obras',
+    nome: 'Placas de obras e Sinalização',
     fotos: [
       placadeobras01,
       placadeobras02,
@@ -181,7 +177,7 @@ const servicos = [
   },
   {
     nome: 'Stander',
-    fotos: [stande01, stande02, stande03, stande04, stande05, stande06],
+    fotos: [stande01, stande02, stande03, placa04, stande04, stande05],
   },
   {
     nome: 'Adesivo Vinil',
