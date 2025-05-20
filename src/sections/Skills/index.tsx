@@ -18,7 +18,7 @@ import placa03 from '../../assets/images/placa de obra/placa de obras.jpg';
 
 import placas01 from '../../assets/images/placas/placa01.jpg';
 import placas02 from '../../assets/images/placas/placa02.jpeg';
-import placas03 from '../../assets/images/placas/placa03.jpeg';
+//import placas03 from '../../assets/images/placas/placa03.jpeg';
 import placas05 from '../../assets/images/placas/placa05.jpg';
 
 import fachadas01 from '../../assets/images/fachadas/fachda01.jpg';
@@ -75,7 +75,7 @@ export default function Skills() {
       descricao:
         'Este é um termo genérico que engloba diversos tipos de placas com diferentes finalidades, como sinalização interna (direcional, informativa, de segurança), sinalização externa (comercial, institucional), placas de identificação, etc.',
       link: '/servico-placas',
-      imagens: [placas03, placas01, placas02, placas05],
+      imagens: [placas01, placas02, placas05],
     },
     {
       titulo: 'Fachadas',
